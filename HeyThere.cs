@@ -16,7 +16,7 @@ public class HeyThere
     [Theory]
     [InlineData("walt")]
     [InlineData("Kimberly")]
-    public void HelloWalt(string name) => this.HelloAny(name).Should().Be($"Hello {name}");
+    public void HelloName(string name) => this.HelloAny(name).Should().Be($"Hello {name}");
 
 #endif
 }
